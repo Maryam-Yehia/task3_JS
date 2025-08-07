@@ -1,0 +1,93 @@
+body {
+    background-color: #F7ECDE;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white !important;
+}
+
+.pacifico {
+    font-family: 'Pacifico', 'cursive';
+}
+
+.Righteous {
+    font-family: 'Righteous', 'cursive';
+}
+
+.PTSansCaption {
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.BreeSerif {
+    font-family: 'Bree Serif', serif;
+}
+
+h1{
+    color: #352e28;
+    font-size: 3.125rem;
+    position: relative;
+    z-index: 2;
+}
+h1::after{
+    content: "";
+    width: 257px;
+    height: 1.25rem;
+    bottom: 0;
+    left: calc(50% - 128.5px);
+    position: absolute;
+    background-color: #FEC260;
+    z-index: -1;
+}
+h1:hover::after{
+    height: 40px;
+    transition: all 0.3s linear;
+
+}
+
+.bord{
+    border-top: #352e28 dotted 2px;
+    border-bottom: #352e28 dotted 2px;
+    padding-bottom: 0.5rem;
+}
+
+.mix{
+    font-weight: 500 ;
+    background: -webkit-linear-gradient(0,#3FA55B, #B2AC49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.inptyellow:focus{
+    outline: #FEC260 solid 2px !important;
+    border: none;
+    box-shadow: 0 0  1px 5px #fec1603f !important ;
+}
+
+.inptgreen:focus{
+    outline: green solid 2px !important;
+    border: none;
+    box-shadow: 0 0  1px 5px rgba(0, 128, 0, 0.225) !important ;
+}
+.inptred:focus{
+    outline: red solid 2px !important;
+    border: none;
+    box-shadow: 0 0  1px 5px rgba(255, 0, 0, 0.225) !important ;
+}
+
+.button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0.375rem .75rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+
+
+.zindex-5{ 
+    z-index: 9999 !important;
+}
